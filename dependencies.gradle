@@ -1,0 +1,43 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    //Android
+    BuildToolsVersion = "25.0.1"
+    MinSdkVersion = 16
+    TargetSdkVersion = 25
+    CompileSdkVersion = 25
+    supportLibraryVersion = '25.0.1'
+    otherLibraryVersion = '25.0.1'
+
+    //ViewLibraries
+    butterKnifeVersion = '7.0.1'
+    rxjava = '1.1.6'
+    rxAndroid = '1.2.1'
+    Dagger2 = '2.8'
+    androidDependencies = [
+            recyclerView: "com.android.support:recyclerview-v7:${supportLibraryVersion}",
+            appcompat_v7: "com.android.support:appcompat-v7:${otherLibraryVersion}",
+            cardview_v7 : "com.android.support:cardview-v7:${supportLibraryVersion}",
+            support_v4  : "com.android.support:support-v4:${supportLibraryVersion}",
+            design      : "com.android.support:design:${otherLibraryVersion}",
+    ]
+
+
+    viewDependencies = [
+            butterKnife: "com.jakewharton:butterknife:${butterKnifeVersion}",
+    ]
+    rxJava = [
+            android: "io.reactivex:rxandroid:${rxAndroid}",
+            java   : "io.reactivex:rxjava:${rxjava}"
+    ]
+    Dagger2 = [
+            compiler  : "com.google.dagger:dagger-compiler:${Dagger2}",
+            dagger    : "com.google.dagger:dagger:${Dagger2}",
+            annotation: "org.glassfish:javax.annotation:10.0-b28"
+    ]
+
+}
