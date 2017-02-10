@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#448aff</color>
+    <color name="colorPrimaryDark">#2a64ca</color>
+    <color name="colorAccent">#448aff</color>
+
+    <color name="toolbar">#448aff</color>
+    <color name="menu_text">#FAFAFA</color>
+    <color name="drawer_divider">#BDBDBD</color>
+    <color name="drawer_divider_light">#E0E0E0</color>
+
+    <color name="primary_text_light">#455a64</color>
+    <color name="secondary_text_light">#8a000000</color>
+    <color name="hint_text_light">#61000000</color>
+    <color name="divider_light">#1f000000</color>
+    <color name="navigation">#F5F5F5</color>
+    <color name="indicator_color">#ffeb3b</color>
+    <color name="default_color">#c3d5ff</color>
+    <color name="system_background">#f2f3f8</color>
+    <color name="item_bag">#f7f7f7</color>
+
+
+</resources>
